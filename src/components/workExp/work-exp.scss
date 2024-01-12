@@ -1,0 +1,38 @@
+.exp {
+    color: #211c1c;
+    font-size: 70%;
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr;
+    gap: 0 10px;
+    grid-template-areas:    'img company .'
+                            'img position date'
+                            '. description description';
+
+    img {
+        max-height: 42px;
+        background-color: #211c1c;
+        border-radius: 100%;
+        grid-area: img;
+    }
+
+    &__company {
+        margin: 0;
+        grid-area: company;
+        color: orangered;
+        text-align: left;
+    }
+    &__position {
+        font-weight: bold;
+        text-align: left;
+        grid-area: position;
+    }
+    &__date {
+        text-align: right;
+        font-size: 50%;
+        grid-area: date;
+    }
+    &__description {
+        grid-area: description;
+        text-align: left;
+    }
+}

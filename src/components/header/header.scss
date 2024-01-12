@@ -1,0 +1,36 @@
+.header {
+    grid-column: 1/-1;
+    background-color: #211c1c;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: min-content auto auto;
+    gap: 1rem;
+
+    img {
+        max-width: 80px;
+        border-radius: 100%;
+    }
+
+    .name, .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .fa {
+        color: orangered;
+    }
+
+    .info {
+        .row {
+            font-size: 80%;
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+}

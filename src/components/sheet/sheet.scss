@@ -1,0 +1,10 @@
+.sheet {
+    // height: 792px;
+    min-height: 100%;
+    width: 612px;
+    background: white;
+
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-columns: 30% 70%;
+}

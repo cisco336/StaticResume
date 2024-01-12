@@ -1,0 +1,17 @@
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    i {
+        color: orangered;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #211c1c;
+        border-radius: 100%;
+    }
+}

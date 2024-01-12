@@ -1,0 +1,17 @@
+.languages {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        font-size: 70%;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        span {
+            &:last-of-type {
+                color: orangered;
+            }
+        }
+    }
+}

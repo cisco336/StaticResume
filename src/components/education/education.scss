@@ -1,0 +1,21 @@
+.education {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        &--title, &--grade, &--date {
+            font-size: 60%;
+            text-align: right;
+        }
+        &--title {
+            color:orangered;
+        }
+    }
+}
