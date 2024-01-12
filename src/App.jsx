@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import Sheet from './components/sheet/sheet';
+import Sheet from './components/sheet/sheet.jsx';
 
 function App() {
   const [count, setCount] = useState(0)

@@ -1,5 +1,5 @@
 import React from "react";
-import WorkExp from "../workExp/WorkExp";
+import WorkExp from "../workExp/WorkExp.jsx";
 import "./main-content.scss";
 
 function MainConten() {

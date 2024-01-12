@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTitle from '../sectionTitle/SectionTitle'
+import SectionTitle from '../sectionTitle/SectionTitle.jsx'
 import './education.scss'
 import EducationItem from './EducationItem';
 
