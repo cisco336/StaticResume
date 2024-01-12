@@ -43,7 +43,7 @@ const data = {
                 },
                 {
                     "name": "C#",
-                    "img": "/C# logo.svg",
+                    "img": "/csharp.svg",
                     "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
                 },
                 {
