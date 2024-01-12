@@ -1,10 +1,10 @@
-{
+const data = {
     "header": {
         "img": "profile.jpeg",
         "name": "Francisco Arleo",
         "position": "Fullstack Developer",
         "mobile": "+573045495804",
-        "mail": "franciscoarleo336@gmail.com",
+        "email": "franciscoarleo336@gmail.com",
         "address": "Bogotá, Colombia"
     },
     "side": {
@@ -188,3 +188,5 @@
         }
     ]
 }
+
+export default data;

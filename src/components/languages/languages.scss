@@ -6,10 +6,13 @@
         font-size: 70%;
         display: flex;
         gap: 10px;
-        justify-content: flex-end;
+        max-width: 100%;
+        align-self: stretch;
+        justify-content: space-between;
 
         span {
             &:last-of-type {
+                text-align: right;
                 color: orangered;
             }
         }

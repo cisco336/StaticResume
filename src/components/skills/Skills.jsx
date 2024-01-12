@@ -1,31 +1,21 @@
 import React from "react";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import "./skills.scss";
+import data from "../../data";
 
 function Skills() {
-    const skills = [
-        "ReactJs, ",
-        "NodeJs, ",
-        "Angular, ",
-        "C#, ",
-        "Django, ",
-        "Git, ",
-        "Express, ",
-        "Redux, ",
-        "Cypress, ",
-        "Playwright, ",
-        "Sass, ",
-        "Jest.",
-    ];
+    const {skills} = data.side;
     return (
-        <div className="skills">
-            <SectionTitle icon={"fa-solid fa-sliders"} text={"Habilidades"} />
-            <p>
-                {skills.map((skill) => (
-                    <span>{skill}</span>
-                ))}
-            </p>
-        </div>
+      <div className="skills">
+        <SectionTitle icon={skills.icon} text={skills.title.es} />
+        <ul>
+          {skills.skills.map((skill, i) => (
+            <li key={i}>
+              <a href={skill.link}>{skill.name}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
     );
 }
 

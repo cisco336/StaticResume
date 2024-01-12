@@ -8,7 +8,7 @@ function EducationItem({ institute, location, title, from, to }) {
                 {`${institute} (${location})`}
             </span>
             <span className="education__item--grade">
-                {title}
+                {title.es}
             </span>
             <span className="education__item--date">
                 {`${from} - ${to}`}

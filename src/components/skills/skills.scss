@@ -1,6 +1,17 @@
 .skills {
-    p {
-        font-size: 60%;
-        text-align: right;
+    ul {
+        columns: 2;
+        li {
+            list-style: none;
+            
+            a {
+                font-size: 60%;
+                display: flex;
+                flex-direction: row nowrap;
+                justify-content: flex-end;
+                gap: 10px;
+                align-items: center;
+            }
+        }
     }
 }
