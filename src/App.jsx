@@ -7,13 +7,19 @@ import html2PDF from 'jspdf-html2canvas';
 export const langContext = createContext();
 
 function App() {
+    const languages = ['Español', 'English'];
+    const [language, setLanguage] = useState('en');
     const savePDF = (e) => {
         e.preventDefault();
         let sheet = document.getElementsByClassName('sheet');
-        html2PDF(sheet, {});
+        html2PDF(sheet, {
+            jsPDF: {
+                format: 'letter',
+                output: `Resume_Francisco_Arleo_${language}.pdf`
+            },
+            output: `Resume_Francisco_Arleo_${language}.pdf`
+        });
     };
-    const languages = ['Español', 'English'];
-    const [language, setLanguage] = useState('en');
     return (
         <>
             <div className="buttons">
