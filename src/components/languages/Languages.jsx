@@ -7,7 +7,10 @@ function Languages({ lang }) {
     const { languages } = data.side;
     return (
         <div className="languages">
-            <SectionTitle icon={'fa-solid fa-language'} text={'Idiomas'} />
+            <SectionTitle
+                icon={'fa-solid fa-language'}
+                text={lang === 'es' ? 'Idiomas' : 'Languages'}
+            />
             {languages.map((l, i) => (
                 <div key={i} className="languages__item">
                     <span>{l.lang[lang]}</span>
