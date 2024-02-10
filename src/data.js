@@ -95,6 +95,16 @@ const data = {
                     name: 'Sass',
                     img: '/sass.png',
                     link: 'https://sass-lang.com/'
+                },
+                {
+                    name: 'GraphQl',
+                    img: '',
+                    link: 'https://graphql.org/'
+                },
+                {
+                    name: 'Apollo GraphQl',
+                    img: '',
+                    link: 'https://www.apollographql.com/'
                 }
             ]
         },
@@ -112,8 +122,8 @@ const data = {
                         en: 'Associate Degree in Computer Science',
                         es: 'T.S.U. en informática'
                     },
-                    from: {es: 'Abr. 2003', en: 'Apr. 2003'},
-                    to: {es: 'Oct. 2006', en: 'Oct. 2006'}
+                    from: { es: 'Abr. 2003', en: 'Apr. 2003' },
+                    to: { es: 'Oct. 2006', en: 'Oct. 2006' }
                 },
                 {
                     institute: 'Universidad Bicentenaria de Aragua',
@@ -122,8 +132,8 @@ const data = {
                         en: 'Lawyer',
                         es: 'Abogado'
                     },
-                    from: {es: 'Jun. 2004', en: 'Jun. 2004'},
-                    to: {es: 'Nov. 2009', en: 'Nov. 2009'}
+                    from: { es: 'Jun. 2004', en: 'Jun. 2004' },
+                    to: { es: 'Nov. 2009', en: 'Nov. 2009' }
                 },
                 {
                     institute: 'Universidad Simón Bolívar',
@@ -132,20 +142,20 @@ const data = {
                         en: 'Specialization in Technology and Innovation Management',
                         es: 'Esp. en Gerencia de la Tecnología y la Innovación'
                     },
-                    from: {es: 'Ago. 2011', en: 'Aug. 2011'},
-                    to: {es: 'Nov. 2015', en: 'Nov. 2015'}
+                    from: { es: 'Ago. 2011', en: 'Aug. 2011' },
+                    to: { es: 'Nov. 2015', en: 'Nov. 2015' }
                 }
             ]
         },
 
         languages: [
             {
-                lang: {es: 'Español', en: 'Spanish'},
-                level: {es: 'Nativo', en: 'Native'}
+                lang: { es: 'Español', en: 'Spanish' },
+                level: { es: 'Nativo', en: 'Native' }
             },
             {
-                lang: {es:'Ingles', en: 'English'},
-                level: {es:'B2', en: 'B2'}
+                lang: { es: 'Ingles', en: 'English' },
+                level: { es: 'B2', en: 'B2' }
             }
         ]
     },
