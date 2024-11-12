@@ -2,7 +2,7 @@ const data = {
     header: {
         img: 'profile.jpeg',
         name: 'Francisco Arleo',
-        position: 'Fullstack Developer',
+        position: 'Web-UI Developer',
         mobile: '+573045495804',
         email: 'franciscoarleo336@gmail.com',
         address: 'Bogotá, Colombia'
@@ -30,6 +30,21 @@ const data = {
                     name: 'ReactJs',
                     img: '/react.png',
                     link: 'https://react.dev/'
+                },
+                {
+                    name: 'NextJs',
+                    img: '/nextjs.png',
+                    link: 'https://nextjs.org/'
+                },
+                {
+                    name: 'Vitest',
+                    img: '/vitest.png',
+                    link: 'https://vitest.dev/'
+                },
+                {
+                    name: 'Tailwind css',
+                    img: '/tailwind.png',
+                    link: 'https://tailwindcss.com/'
                 },
                 {
                     name: 'NodeJs',
@@ -160,6 +175,17 @@ const data = {
         ]
     },
     exp: [
+        {
+            logo: '/Globant India Logo.jpeg',
+            company: 'Globant',
+            position: 'Web UI Developer',
+            start: { es: 'Marzo 2024', en: 'March 2024' },
+            end: { es: 'Actual', en: 'Current' },
+            description: {
+                es: 'Como Web UI en Globant, contribuyo al desarrollo de interfaces web centradas en el usuario para British Airways. Utilizando tecnologías como Next.js y Tailwind CSS, creo diseños responsivos y visualmente atractivos que mejoran la experiencia del usuario. Mis responsabilidades incluyen colaborar con equipos multifuncionales para desarrollar prototipos y realizar pruebas de usuario para garantizar la usabilidad. También implemento prácticas de pruebas robustas utilizando Vitest para mantener la integridad y el rendimiento del diseño. Este rol ha ayudado a refinar mis habilidades de diseño y ha contribuido al éxito de proyectos clave.',
+                en: 'As a Web UI Software Designer at Globant, I contribute to the development of user-centric web interfaces for British Airways. Utilizing technologies such as Next.js and Tailwind CSS, I create responsive and visually appealing designs that enhance the overall user experience. My responsibilities include collaborating with cross-functional teams to develop prototypes and conducting user testing to ensure usability. I also implement robust testing practices using Vitest to maintain design integrity and performance. This role has helped refine my design skills and contributed to the success of key projects.'
+            }
+        },
         {
             logo: '/gorilla_logic_logo.jpeg',
             company: 'Gorilla Logic',
